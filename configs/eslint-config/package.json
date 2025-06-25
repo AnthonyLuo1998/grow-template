@@ -8,19 +8,18 @@
   "keywords": [],
   "exports": {
     ".": {
-      "default": "./dist/index.mjs"
+      "default": "./index.mjs"
     }
   },
-  "main": "index.js",
-  "scripts": {
-    "build": "unbuild --stub"
-  },
+  "main": "index.mjs",
   "devDependencies": {
     "@antfu/eslint-config": "catalog:",
     "@eslint-react/eslint-plugin": "catalog:",
+    "@types/eslint-plugin-tailwindcss": "catalog:",
     "eslint": "catalog:",
     "eslint-plugin-format": "catalog:",
     "eslint-plugin-react-hooks": "catalog:",
-    "eslint-plugin-react-refresh": "catalog:"
+    "eslint-plugin-react-refresh": "catalog:",
+    "eslint-plugin-tailwindcss": "catalog:"
   }
 }
