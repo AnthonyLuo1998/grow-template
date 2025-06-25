@@ -5,8 +5,8 @@
  * @LastEditTime: 2025-06-25 20:46:43
  * @Email: jum1274001055@gmail.com
  */
-import { loadPwaPlugin } from "./pwa";
-import type { ExpandPluginOptions } from "../types";
+import { loadPwaPlugin } from './pwa';
+import type { ExpandPluginOptions } from '../types';
 
 export async function loadExpandPlugins(pluginOptions: ExpandPluginOptions) {
   const expandPluginInfoList = [
@@ -17,7 +17,7 @@ export async function loadExpandPlugins(pluginOptions: ExpandPluginOptions) {
   ];
 
   const expandPluginInfoListEnabled = expandPluginInfoList.filter(
-    (item) => item.need
+    (item) => item.need,
   );
 
   if (expandPluginInfoListEnabled.length === 0) {
@@ -25,7 +25,7 @@ export async function loadExpandPlugins(pluginOptions: ExpandPluginOptions) {
   }
 
   const expandPluginList = expandPluginInfoListEnabled.map(
-    (item) => item.plugin
+    (item) => item.plugin,
   );
 
   return await Promise.all(expandPluginList.map((item) => item()));

@@ -6,13 +6,16 @@
   "scripts": {
     "dev:pro": "pnpm --filter @antl/pro-app dev",
     "build:pro": "pnpm --filter @antl/pro-app build",
-    "build:vite-config": "pnpm --filter @antl/vite-config build"
+    "build:vite-config": "pnpm --filter @antl/vite-config build",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.12.1",
   "devDependencies": {
+    "@antl/prettier-config": "workspace:*",
     "@types/node": "catalog:",
     "typescript": "catalog:",
     "vite": "catalog:",

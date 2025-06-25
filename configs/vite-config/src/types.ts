@@ -8,4 +8,4 @@
 export interface ExpandPluginOptions {
   pwa?: boolean;
 }
-export type ApplicationType = "vue" | "react";
+export type ApplicationType = 'vue' | 'react';
