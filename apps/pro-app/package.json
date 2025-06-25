@@ -1,0 +1,21 @@
+{
+  "name": "@antl/pro-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.12.1",
+  "dependencies": {
+    "vue": "catalog:"
+  },
+  "devDependencies": {
+    "@antl/ts-config": "workspace:*",
+    "@antl/vite-config": "workspace:*"
+  }
+}

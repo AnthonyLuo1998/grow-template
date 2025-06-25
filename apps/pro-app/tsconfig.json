@@ -1,0 +1,3 @@
+{
+  "extends": "@antl/ts-config/vue"
+}

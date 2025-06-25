@@ -1,0 +1,20 @@
+{
+  "name": "@antl/ts-config",
+  "version": "1.0.0",
+  "description": "ts-config",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "exports": {
+    "./vue": "./src/vue/tsconfig.json",
+    "./node": "./src/node/tsconfig.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.12.1",
+  "devDependencies": {
+    "@tsconfig/node22": "catalog:",
+    "@vue/tsconfig": "catalog:"
+  }
+}
