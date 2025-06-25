@@ -6,6 +6,6 @@
  * @Email: jum1274001055@gmail.com
  */
 export interface ExpandPluginOptions {
-  pwa?: boolean;
+  pwa?: boolean
 }
-export type ApplicationType = 'vue' | 'react';
+export type ApplicationType = 'vue' | 'react'

@@ -1,5 +1,5 @@
 {
-  "name": "@antl/vite-config",
+  "name": "@antl/eslint-config",
   "version": "1.0.0",
   "packageManager": "pnpm@10.12.1",
   "description": "",
@@ -15,12 +15,12 @@
   "scripts": {
     "build": "unbuild --stub"
   },
-  "dependencies": {
-    "@vitejs/plugin-vue": "catalog:",
-    "vite": "catalog:",
-    "vite-plugin-pwa": "catalog:"
-  },
   "devDependencies": {
-    "@antl/ts-config": "workspace:*"
+    "@antfu/eslint-config": "catalog:",
+    "@eslint-react/eslint-plugin": "catalog:",
+    "eslint": "catalog:",
+    "eslint-plugin-format": "catalog:",
+    "eslint-plugin-react-hooks": "catalog:",
+    "eslint-plugin-react-refresh": "catalog:"
   }
 }

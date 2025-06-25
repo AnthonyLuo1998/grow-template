@@ -5,12 +5,12 @@
  * @LastEditTime: 2025-06-25 16:47:05
  * @Email: jum1274001055@gmail.com
 -->
+<script setup lang="ts"></script>
+
 <template>
   <div>
     <h1>Hello World</h1>
   </div>
 </template>
-
-<script setup lang="ts"></script>
 
 <style scoped></style>

@@ -1,16 +1,16 @@
 {
   "name": "@antl/pro-app",
   "version": "1.0.0",
+  "packageManager": "pnpm@10.12.1",
   "description": "",
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
   "main": "index.js",
   "scripts": {
     "build": "vite build",
     "dev": "vite"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "packageManager": "pnpm@10.12.1",
   "dependencies": {
     "vue": "catalog:"
   },

@@ -1,5 +1,5 @@
 export async function loadPwaPlugin() {
-  const pwa = await import('vite-plugin-pwa');
+  const pwa = await import('vite-plugin-pwa')
   return pwa.VitePWA({
     registerType: 'prompt', // 改为 prompt 以显示安装提示
     includeAssets: ['favicon.ico', 'robots.txt', 'apple-touch-icon.png'],
@@ -31,5 +31,5 @@ export async function loadPwaPlugin() {
     devOptions: {
       enabled: true, // 开发环境也启用 PWA
     },
-  });
+  })
 }
