@@ -2,13 +2,12 @@
  * @Author: AnthonyLuo
  * @Date: 2025-06-25 16:46:08
  * @LastEditors: AnthonyLuo
- * @LastEditTime: 2025-06-26 16:21:09
+ * @LastEditTime: 2025-06-26 16:26:20
  * @Email: jum1274001055@gmail.com
 -->
 
 <script setup lang="ts">
-console.log('Hello World')
-const a = 1
+
 </script>
 
 <template>
