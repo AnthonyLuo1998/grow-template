@@ -1,1 +1,1 @@
-pnpm l:global
+npx lint-staged
