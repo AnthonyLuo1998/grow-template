@@ -8,16 +8,23 @@
   "keywords": [],
   "main": "index.js",
   "scripts": {
+    "prepare": "husky install",
     "dev:pro": "pnpm --filter @antl/pro-app dev",
     "build:pro": "pnpm --filter @antl/pro-app build",
     "build:vite-config": "pnpm --filter @antl/vite-config build",
     "build:eslint-config": "pnpm --filter @antl/eslint-config build",
     "lint": "eslint",
-    "lint:fix": "eslint --fix"
+    "ld:global": "eslint --debug",
+    "lf:global": "eslint --fix",
+    "l:global": "eslint",
+    "ld:pro-app": "eslint ./apps/pro-app --debug",
+    "lf:pro-app": "eslint ./apps/pro-app --fix",
+    "l:pro-app": "eslint ./apps/pro-app"
   },
   "devDependencies": {
     "@antl/eslint-config": "workspace:*",
     "@types/node": "catalog:",
+    "husky": "catalog:",
     "typescript": "catalog:",
     "unbuild": "catalog:",
     "vite": "catalog:"

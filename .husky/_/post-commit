@@ -1,0 +1,11 @@
+###
+ # @Author: AnthonyLuo
+ # @Date: 2025-06-26 15:17:37
+ # @LastEditors: AnthonyLuo
+ # @LastEditTime: 2025-06-26 15:22:14
+ # @Email: jum1274001055@gmail.com
+### 
+#!/usr/bin/env sh
+. "$(dirname "$0")/h"
+
+pnpm run l:global
