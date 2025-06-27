@@ -8,12 +8,13 @@
   "keywords": [],
   "exports": {
     ".": {
-      "default": "./dist/index.mjs"
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs"
     }
   },
-  "main": "index.mjs",
+  "main": "./dist/index.mjs",
   "scripts": {
-    "build": "unbuild --stub"
+    "stub": "unbuild --stub"
   },
   "devDependencies": {
     "@antfu/eslint-config": "catalog:",

@@ -9,25 +9,28 @@
   "keywords": [],
   "main": "index.js",
   "scripts": {
-    "prepare": "husky",
-    "dev:pro": "pnpm --filter @antl/pro-app dev",
-    "build:pro": "pnpm --filter @antl/pro-app build",
-    "build:vite-config": "pnpm --filter @antl/vite-config build",
-    "build:eslint-config": "pnpm --filter @antl/eslint-config build",
+    "setup:husky": "antl husky",
+    "dev:pro": "pnpm --filter @antl/pro-app run dev",
+    "build:pro": "pnpm --filter @antl/pro-app run build",
+    "build:vite-config": "pnpm --filter @antl/vite-config run build",
+    "build:eslint-config": "pnpm --filter @antl/eslint-config run build",
     "lint": "eslint",
     "ld:global": "eslint --debug",
     "lf:global": "eslint --fix",
     "l:global": "eslint",
     "ld:pro-app": "eslint ./apps/pro-app --debug",
     "lf:pro-app": "eslint ./apps/pro-app --fix",
-    "l:pro-app": "eslint ./apps/pro-app"
+    "l:pro-app": "eslint ./apps/pro-app",
+    "prepare": "husky",
+    "postinstall": "pnpm -r run stub --if-present"
   },
   "devDependencies": {
+    "@antl/cli": "workspace:*",
     "@antl/eslint-config": "workspace:*",
+    "@antl/ts-config": "workspace:*",
+    "@antl/vite-config": "workspace:*",
     "@types/node": "catalog:",
     "husky": "catalog:",
-    "typescript": "catalog:",
-    "unbuild": "catalog:",
-    "vite": "catalog:"
+    "unbuild": "catalog:"
   }
 }

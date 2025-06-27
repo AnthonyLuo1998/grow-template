@@ -2,23 +2,28 @@ packages:
   - packages/*
   - apps/*
   - configs/**/*
+  - scripts/**/*
 catalog:
   '@antfu/eslint-config': ^4.16.1
   '@eslint-react/eslint-plugin': ^1.52.2
   '@iconify-json/radix-icons': ^1.2.2
   '@iconify/vue': ^5.0.0
+  '@inquirer/prompts': ^7.5.3
   '@tsconfig/node22': ^22.0.2
   '@types/eslint-plugin-tailwindcss': ^3.17.0
   '@types/node': ^24.0.4
   '@vitejs/plugin-vue': ^6.0.0
   '@vue/tsconfig': ^0.7.0
   '@vueuse/core': ^13.4.0
+  cac: ^6.7.14
   eslint: ^9.29.0
   eslint-plugin-format: ^1.0.1
   eslint-plugin-react-hooks: ^5.2.0
   eslint-plugin-react-refresh: ^0.4.20
   eslint-plugin-tailwindcss: ^3.18.0
   husky: ^9.1.7
+  lint-staged: ^16.1.2
+  micromatch: ^4.0.8
   prettier-plugin-tailwindcss: ^0.6.13
   tailwindcss: ^4.1.10
   typescript: ^5.8.3
@@ -28,3 +33,4 @@ catalog:
   vue: ^3.5.17
 publicHoistPattern:
   - eslint
+  - husky
