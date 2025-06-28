@@ -1,5 +1,5 @@
 {
-  "name": "grow",
+  "name": "@antl/template",
   "type": "module",
   "version": "1.0.0",
   "packageManager": "pnpm@10.12.1",
@@ -8,6 +8,10 @@
   "license": "ISC",
   "keywords": [],
   "main": "index.js",
+  "exports": {
+    "./tsconfig.node": "./configs/ts-config/src/node/tsconfig.json",
+    "./tsconfig.vue": "./configs/ts-config/src/vue/tsconfig.json"
+  },
   "scripts": {
     "setup:husky": "antl husky",
     "dev:pro": "pnpm --filter @antl/pro-app run dev",
@@ -26,9 +30,8 @@
   },
   "devDependencies": {
     "@antl/cli": "workspace:*",
-    "@antl/eslint-config": "workspace:*",
-    "@antl/ts-config": "workspace:*",
     "@antl/vite-config": "workspace:*",
+    "@antfu/eslint-config": "catalog:",
     "@types/node": "catalog:",
     "husky": "catalog:",
     "unbuild": "catalog:"

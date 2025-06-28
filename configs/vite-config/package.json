@@ -21,8 +21,5 @@
     "@vitejs/plugin-vue": "catalog:",
     "vite": "catalog:",
     "vite-plugin-pwa": "catalog:"
-  },
-  "devDependencies": {
-    "@antl/ts-config": "workspace:*"
   }
 }

@@ -2,10 +2,10 @@
  * @Author: AnthonyLuo
  * @Date: 2025-06-25 20:46:14
  * @LastEditors: AnthonyLuo
- * @LastEditTime: 2025-06-25 20:46:28
+ * @LastEditTime: 2025-06-28 12:36:35
  * @Email: jum1274001055@gmail.com
  */
-export interface ExpandPluginOptions {
+export interface EnablePluginOptions {
+  vue?: boolean
   pwa?: boolean
 }
-export type ApplicationType = 'vue' | 'react'

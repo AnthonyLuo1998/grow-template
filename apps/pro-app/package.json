@@ -18,7 +18,6 @@
 
   },
   "devDependencies": {
-    "@antl/ts-config": "workspace:*",
     "@antl/vite-config": "workspace:*",
     "@iconify-json/radix-icons": "catalog:",
     "@iconify/vue": "catalog:"

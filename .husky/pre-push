@@ -1,0 +1,5 @@
+#!/bin/sh
+echo "🔍 Running tests..."
+pnpm run test
+echo "🔍 Running build..."
+pnpm run build

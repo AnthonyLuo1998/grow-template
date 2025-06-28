@@ -16,6 +16,7 @@ catalog:
   '@vue/tsconfig': ^0.7.0
   '@vueuse/core': ^13.4.0
   cac: ^6.7.14
+  ejs: ^3.1.10
   eslint: ^9.29.0
   eslint-plugin-format: ^1.0.1
   eslint-plugin-react-hooks: ^5.2.0

@@ -1,0 +1,3 @@
+#!/bin/sh
+echo "✅ 提交完成，正在执行后续操作..."
+pnpm run l:global || echo "⚠️  l:global 脚本未找到，跳过执行"

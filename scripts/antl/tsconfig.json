@@ -1,5 +1,0 @@
-{
-  "extends": "@antl/ts-config/node",
-  "include": ["src/**/*", "package.json"],
-  "exclude": ["node_modules", "dist"]
-}
