@@ -8,32 +8,21 @@
   "license": "ISC",
   "keywords": [],
   "main": "index.js",
-  "exports": {
-    "./tsconfig.node": "./configs/ts-config/src/node/tsconfig.json",
-    "./tsconfig.vue": "./configs/ts-config/src/vue/tsconfig.json"
-  },
   "scripts": {
-    "setup:husky": "antl husky",
     "dev:pro": "pnpm --filter @antl/pro-app run dev",
     "build:pro": "pnpm --filter @antl/pro-app run build",
-    "build:vite-config": "pnpm --filter @antl/vite-config run build",
-    "build:eslint-config": "pnpm --filter @antl/eslint-config run build",
     "lint": "eslint",
-    "ld:global": "eslint --debug",
-    "lf:global": "eslint --fix",
-    "l:global": "eslint",
-    "ld:pro-app": "eslint ./apps/pro-app --debug",
-    "lf:pro-app": "eslint ./apps/pro-app --fix",
-    "l:pro-app": "eslint ./apps/pro-app",
     "prepare": "husky",
     "postinstall": "pnpm -r run stub --if-present"
   },
   "devDependencies": {
-    "@antl/cli": "workspace:*",
-    "@antl/vite-config": "workspace:*",
     "@antfu/eslint-config": "catalog:",
+    "@antl/vite-config": "workspace:*",
+    "@tsconfig/node22": "catalog:",
     "@types/node": "catalog:",
+    "@vue/tsconfig": "catalog:",
     "husky": "catalog:",
-    "unbuild": "catalog:"
+    "unbuild": "catalog:",
+    "vite": "catalog:"
   }
 }
